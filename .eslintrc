@@ -1,6 +1,20 @@
 {
     "extends": [
         "airbnb-base",
+        "plugin:react/recommended",
         "prettier"
-    ]
+    ],
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "error",
+        "import/prefer-default-export": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off"
+    },
 }

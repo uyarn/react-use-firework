@@ -7,7 +7,7 @@
       "dom"
     ],
     "strict": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
@@ -19,9 +19,9 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "./src"
   ],
   "exclude": [
-    "src/**/*.stories.tsx"
+    "node_modules"
   ]
 }
