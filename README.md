@@ -19,16 +19,15 @@ import React, { useRef } from "react";
 import useFireWork from "react-use-firework";
 
 export component = ()=> {
-const ref = useRef(null);
-useFireWork(ref);
+  const ref = useRef(null);
+  useFireWork(ref);
 
-return (
-
-<div
-ref={ref}
-style={{ width: "100%", height: "600px", background: "#000" }}
-/>
-);
+  return (
+    <div
+     ref={ref}
+     style={{ width: "100%", height: "600px", background: "#000" }}
+    />
+  );
 }
 
 ```
