@@ -1,4 +1,6 @@
-## react-use-firework 🎆 [![npm version](https://img.shields.io/npm/v/react-use-firework.svg?style=flat)](https://github.com/uyarn/react-use-firework)
+## react-use-firework 🎆 
+
+[![npm version](https://img.shields.io/npm/v/react-use-firework.svg?style=flat)](https://github.com/uyarn/react-use-firework)
 
 <image src="./use-firework.gif" />
 
