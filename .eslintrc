@@ -4,6 +4,9 @@
         "plugin:react/recommended",
         "prettier"
     ],
+    "env": {
+        "browser": true
+    },
     "plugins": [
         "react",
         "react-hooks"

@@ -1,6 +1,6 @@
 {
-  "name": "use-firework",
-  "version": "0.0.1",
+  "name": "react-use-firework",
+  "version": "1.0.0-beta.1",
   "description": "a react hooks for firework animation",
   "main": "cjs/index.js",
   "module": "es/index.js",
@@ -18,6 +18,12 @@
     "type": "git",
     "url": "git+https://github.com/uyarn/use-firework.git"
   },
+  "files": [
+    "cjs",
+    "es",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "firework",
     "hooks",
@@ -56,6 +62,5 @@
   "peerDependencies": {
     "react": ">=^16.9.0",
     "react-dom": "^16.9.0"
-  },
-  "dependencies": {}
+  }
 }
