@@ -12,7 +12,7 @@
 ### Installation
 
 ```shell
-npm install react-use-firework --save-dev
+npm install react-use-firework --save
 yarn add react-use-firework
 ```
 
