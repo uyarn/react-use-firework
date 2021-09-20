@@ -1,6 +1,6 @@
 {
   "name": "react-use-firework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a react hooks for firework animation",
   "main": "cjs/index.js",
   "module": "es/index.js",
