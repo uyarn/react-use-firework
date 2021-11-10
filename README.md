@@ -11,7 +11,7 @@
 ### Installation
 
 ```shell
-npm install react-use-firework --save
+npm i react-use-firework --save
 yarn add react-use-firework
 ```
 
@@ -36,7 +36,7 @@ export component = ()=> {
 
 ```
 
-### Arguments
+### APIs
 
 the usage demo describes the basic usage and default setting of useFirewrok, you can use it with some options like `useFirework(ref,{ count: 10, ...otherOptions })` as well and the supporting options arguments are like the table below
 
