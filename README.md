@@ -11,7 +11,6 @@
 ### Installation
 
 ```shell
-npm i react-use-firework --save
 yarn add react-use-firework
 ```
 
