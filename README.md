@@ -4,17 +4,17 @@
 
 <image src="./use-firework.gif" />
 
-### Demo
+### Demo 🪞
 
 [![Edit react-use-ripple demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/compassionate-mcnulty-1rppg)
 
-### Installation
+### Install 📦
 
 ```shell
 yarn add react-use-firework
 ```
 
-### Usage
+### Usage 📋
 
 ```js
 import React, { useRef } from "react";
