@@ -1,7 +1,7 @@
 {
-  "name": "react-use-firework",
+  "name": "use-animations",
   "version": "1.0.1",
-  "description": "a react hooks for firework animation",
+  "description": "a collections for react animation hooks",
   "main": "cjs/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyarn/react-use-firework.git"
+    "url": "git+https://github.com/uyarn/use-animations.git"
   },
   "files": [
     "cjs",
