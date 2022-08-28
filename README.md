@@ -1,21 +1,19 @@
 ## react-use-firework 🎆
 
 [![npm version](https://img.shields.io/npm/v/react-use-firework.svg?style=flat)](https://github.com/uyarn/react-use-firework)
+[![npm version](https://img.shields.io/npm/dt/react-use-firework)](https://github.com/uyarn/react-use-firework)
 
-<image src="./use-firework.gif" />
-
-### Demo
+### Demo 🪞
 
 [![Edit react-use-ripple demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/compassionate-mcnulty-1rppg)
 
-### Installation
+### Install 📦
 
 ```shell
-npm install react-use-firework --save
 yarn add react-use-firework
 ```
 
-### Usage
+### Usage 📋
 
 ```js
 import React, { useRef } from "react";
@@ -36,7 +34,7 @@ export component = ()=> {
 
 ```
 
-### Arguments
+### APIs
 
 the usage demo describes the basic usage and default setting of useFirewrok, you can use it with some options like `useFirework(ref,{ count: 10, ...otherOptions })` as well and the supporting options arguments are like the table below
 
