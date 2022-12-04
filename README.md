@@ -34,9 +34,9 @@ export component = ()=> {
 
 ```
 
-### APIs
+### API
 
-the usage demo describes the basic usage and default setting of useFirewrok, you can use it with some options like `useFirework(ref,{ count: 10, ...otherOptions })` as well and the supporting options arguments are like the table below
+the usage demo above is the basic usage with default setting of useFirewrok, you can use it with some options like `useFirework(ref,{ count: 10, ...otherOptions })` as well and the supporting options arguments are like the table below
 
 | name        | type          | default                           | description                                     |
 | ----------- | ------------- | --------------------------------- | ----------------------------------------------- |
