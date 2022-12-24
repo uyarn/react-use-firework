@@ -3,6 +3,8 @@
 [![npm version](https://img.shields.io/npm/v/react-use-firework.svg?style=flat)](https://www.npmjs.com/package/react-use-firework)
 [![npm version](https://img.shields.io/npm/dt/react-use-firework)](https://www.npmjs.com/package/react-use-firework)
 
+- A simple react hook to create click-firework animation 🎆
+
 ### Demo 🪞
 
 [![Edit react-use-ripple demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/compassionate-mcnulty-1rppg)
