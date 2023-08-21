@@ -19,7 +19,8 @@
     "jsx": "react"
   },
   "include": [
-    "./src"
+    "packages/**/src",
+    "packages/use-firework/src/stories"
   ],
   "exclude": [
     "node_modules"

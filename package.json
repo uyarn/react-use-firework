@@ -1,51 +1,13 @@
 {
-  "name": "react-use-firework",
-  "version": "1.0.2",
-  "description": "a react hooks for firework animation",
-  "main": "cjs/index.js",
-  "module": "es/index.js",
-  "types": "es/index.d.ts",
+  "private": true,
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint '**/*.ts?(x)' --fix",
-    "prebuild": "rimraf cjs && rimraf es",
-    "build": "yarn build:cjs && yarn build:es",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
-    "build:es": "tsc -p tsconfig.es.json"
+    "preinstall": "npx -y only-allow pnpm"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/uyarn/react-use-firework.git"
-  },
-  "files": [
-    "cjs",
-    "es",
-    "package.json",
-    "README.md"
-  ],
-  "keywords": [
-    "firework",
-    "hooks",
-    "react",
-    "animation"
-  ],
-  "author": "uyarn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/uyarn/use-firework/issues"
-  },
-  "homepage": "https://github.com/uyarn/use-firework#readme",
   "devDependencies": {
     "@babel/core": "^7.15.0",
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/react": "^6.3.7",
-    "@types/react": "^17.0.19",
-    "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
+    "autoprefixer": "^10.4.15",
     "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -54,13 +16,7 @@
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
     "typescript": "^4.4.2"
-  },
-  "peerDependencies": {
-    "react": ">=16.9.0",
-    "react-dom": ">=16.9.0"
   }
 }
