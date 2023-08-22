@@ -6,7 +6,6 @@
   "module": "es/index.js",
   "types": "es/index.d.ts",
   "scripts": {
-    "dev": "start-storybook -p 6006",
     "lint": "eslint '**/*.ts?(x)' --fix",
     "prebuild": "rimraf cjs && rimraf es",
     "build": "npm run build:cjs && npm run build:es",
@@ -37,10 +36,6 @@
   "homepage": "https://github.com/uyarn/use-animation#readme",
   "devDependencies": {
     "@babel/core": "^7.15.0",
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/react": "^6.3.7",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "babel-loader": "^8.2.2",

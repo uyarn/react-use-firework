@@ -21,7 +21,7 @@
   "include": [
     "packages/**/src",
     "packages/use-firework/src/stories"
-  ],
+, "stories/Default.stories.tsx"  ],
   "exclude": [
     "node_modules"
   ]
