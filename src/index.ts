@@ -1,5 +1,5 @@
 import React, { useEffect, useCallback } from "react";
-import { createFirework, } from './createFirework'
+import { createFirework } from './createFirework'
 
 const DEFAULT_COLORS = ["#f59342", '#f5e942', '#f54242'];
 export interface FireworkOptions {
